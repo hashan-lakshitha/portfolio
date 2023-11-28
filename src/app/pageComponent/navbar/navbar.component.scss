@@ -1,0 +1,35 @@
+.navbar{
+  width: 100%;
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  background-color: var(--color-navy);
+}
+.logo{
+  width: 70px;
+  height: 70px;
+}
+.nav-link{
+  color:#DDF2FD;
+}
+
+.container-fluid{
+  // margin: 0;
+  margin-right: 50px !important;
+
+}
+
+#colorfulPath {
+  transition: fill 0.1s ease; 
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+.navbar-icon{
+  width: 30px;
+  height: 30px;
+}
+
+}
